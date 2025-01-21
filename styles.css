@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.item {
+    background-color: #011e29;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    flex: 1 1 100px; /* Allow items to grow and shrink, and set a minimum width */
+}
